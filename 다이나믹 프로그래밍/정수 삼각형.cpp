@@ -22,7 +22,7 @@ case 1 [5 7 3 8 8 1 0 2 7 4 4 4 5 2 6 5] [30]
 using namespace std;
 
 int n;
-int cache[500] = {0, };
+int cache[125250] = {0, };
 vector<int> tri;
 
 int sum(int idx, int cnt){
